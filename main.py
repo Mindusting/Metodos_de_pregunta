@@ -71,7 +71,6 @@ def ask_bool(text):
             return False
         
         else:
-
             # Si no es ninguna de las
             # anteriores, el valor
             # no es válido.
