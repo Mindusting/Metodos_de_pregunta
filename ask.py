@@ -1,5 +1,5 @@
 # Método de pregunta con respuesta de tipo int.
-def ask_int(text):
+def ask_int(text: str = ""):
 
     while True:
         try:
@@ -24,7 +24,7 @@ def ask_int(text):
 
 
 # Método de pregunta con respuesta de tipo float.
-def ask_float(text):
+def ask_float(text: str = ""):
 
     while True:
         try:
@@ -49,7 +49,7 @@ def ask_float(text):
 
 
 # Método de pregunta con respuesta de tipo bool.
-def ask_bool(text):
+def ask_bool(text: str = ""):
 
     while True:
 
